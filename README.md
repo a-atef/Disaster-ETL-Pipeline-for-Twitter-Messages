@@ -43,7 +43,7 @@ The data was obtained by Figure Eight Inc [insideairbnb website](https://www.fig
         ```python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl```
 
 2. Run the following command in the app's directory to deploy and fire a local web app using flask server.
-    - ```python run.py````
+    - ```python run.py```
     - Go to http://localhost:3001/
 
 3. Run the following command to generate a Heroku app on your local machine: 
