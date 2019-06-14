@@ -1,19 +1,18 @@
 import json
 import plotly
+import re
+import pickle
 import pandas as pd
-
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-
 from flask import Flask
 from flask import render_template, request, jsonify
 from plotly.graph_objs import Bar, Pie, Histogram
 from sklearn.externals import joblib
 from sqlalchemy import create_engine
 from collections import Counter
-import re
-import pickle
+
 
 app = Flask(__name__)
 
@@ -65,7 +64,7 @@ def index():
             None
             
         Returns:
-            render_template(render_template): Render Tempalte for the plots  
+            render_template(render_template): Render template for the plots  
         
     """
     # create visuals
@@ -93,7 +92,7 @@ def go():
             None
             
         Returns:
-            render_template(render_template): Render Template for the classfication table
+            render_template(render_template): Render template for the classfication table
         
     """
     # save user input in query
