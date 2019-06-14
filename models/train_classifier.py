@@ -1,9 +1,8 @@
-from sklearn.base import BaseEstimator, TransformerMixin
 import sys
 import nltk
 import pickle
-import pandas as pd
 import re
+import pandas as pd
 from sqlalchemy import create_engine
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
