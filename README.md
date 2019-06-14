@@ -4,7 +4,7 @@ by: Ahmed A. Youssef
 
 ## Data Source
 
-The data was obtained by Figure Eight Inc [insideairbnb website](https://www.figure-eight.com)
+The data was obtained by [Figure Eight Inc](https://www.figure-eight.com)
 
 ## Libraries Dependency
 - re
@@ -48,6 +48,8 @@ The data was obtained by Figure Eight Inc [insideairbnb website](https://www.fig
 
 3. Run the following command to generate a Heroku app on your local machine: 
     -````heroku local web -f Procfile.windows````
+    
+4. The Heroku app can be accessed through this link: https://radiant-wave-94401.herokuapp.com/
 
 Note: For more information on deploying a flask app or a Heroku app for the first time, refer to these links:
 - http://www.gtlambert.com/blog/deploy-flask-app-to-heroku
