@@ -9,7 +9,6 @@ from nltk.corpus import stopwords
 from flask import Flask
 from flask import render_template, request, jsonify
 from plotly.graph_objs import Bar, Pie, Histogram
-from sklearn.externals import joblib
 from sqlalchemy import create_engine
 from collections import Counter
 
